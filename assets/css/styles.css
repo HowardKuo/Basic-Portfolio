@@ -1,0 +1,59 @@
+body {
+    background: #4aaaa5;
+}
+
+header {
+    width: 100%;
+    height: auto;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	background-color: #ffffff;
+	padding: 25px 0px 60px 0px;
+    border-bottom: 2px solid #cccccc;
+}
+
+div {
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    float: left;
+    padding: 25px;
+	background: #4aaaa5;
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+    /*something here should be making the box bigger and fit more nicely into the header*/
+}
+
+.links {
+
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+	/*float: left;
+    margin-left: 70%;
+    something made this go down...it used to be in top right alright*/
+}
+
+.profilePic {
+    float:left;
+}
+
+p {
+    color: #777777;
+}
+
+footer {
+	float: bottom;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 25px;
+	text-align: center;
+	font-size: 12px;
+	color: #cccccc;
+	background-color: #666666;
+	border-top: 7px solid #4aaaa5;
+}
