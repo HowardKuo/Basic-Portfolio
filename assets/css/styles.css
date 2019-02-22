@@ -35,10 +35,8 @@ h1 {
 }
 
 .links {
-
     display: flex;
     justify-content: flex-end;
-    margin: 10px;
     background-color: #ffffff;
     width: 960px;
     margin: 0 auto;
