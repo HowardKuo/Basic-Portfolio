@@ -1,5 +1,5 @@
 body {
-    background: #4aaaa5;
+    background: #4aaaa5 url("../images/gravel.png");
 }
 
 header {
@@ -7,19 +7,20 @@ header {
     height: auto;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	background-color: #ffffff;
-	padding: 25px 0px 60px 0px;
+	padding: 20px 0px 60px 0px;
     border-bottom: 2px solid #cccccc;
 }
 
-div {
+.content {
     background-color: #ffffff;
+    padding: 20px;
     width: 960px;
     margin: 0 auto;
 }
 
 h1 {
     float: left;
-    padding: 25px;
+    padding: 20px;
 	background: #4aaaa5;
     font-size: 28px;
     font-weight: bold;
@@ -27,30 +28,39 @@ h1 {
     /*something here should be making the box bigger and fit more nicely into the header*/
 }
 
+.pageTitle {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    color: #0a0eee
+}
+
 .links {
 
     display: flex;
     justify-content: flex-end;
     margin: 10px;
-	/*float: left;
-    margin-left: 70%;
-    something made this go down...it used to be in top right alright*/
+    background-color: #ffffff;
+    width: 960px;
+    margin: 0 auto;
 }
 
 .profilePic {
-    float:left;
+    float: left;
+    padding: 20px;
 }
 
 p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
 }
 
 footer {
-	float: bottom;
+	position: fixed;
 	left: 0;
 	bottom: 0;
 	width: 100%;
-	padding: 25px;
+    padding: 25px 0;
+    margin-top: 20px;
 	text-align: center;
 	font-size: 12px;
 	color: #cccccc;
