@@ -37,12 +37,17 @@ h1 {
 }
 
 h3 {
-    display: flex;
-    flex-direction: column;
-    
-    background-color:#168e9e;
-    width: 200px;
-    height: 20px;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #ffffff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
 }
 
 .pageTitle {
@@ -95,11 +100,11 @@ p {
 }
 
 .picture {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: 200px;
-    height: 200px;
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
 }
 
 footer {
